@@ -1,5 +1,20 @@
-store all the possible choices
-add some default choices as pang gulo when there is no added
-
-pool choices for each quiz
-create default pool choices
+{
+        "Math": [
+                "2",
+                "2"
+        ],
+        "Python": [
+                "print()"
+        ],
+        "Me": [
+                "Orteras"
+        ],
+        "Planets": [
+                "Jupiter",
+                "Earth"
+        ],
+        "Comprog": [
+                "Programming Language",
+                "1994"
+        ]
+}

@@ -1,3 +1,11 @@
+### May 23, 2026
+#### What I did
+1. Add multiple choices
+2. Add algorithm for multiples choice
+3. Prototype answering quiz
+#### What's next
+1. Finalize answering quiz
+
 ### May 18, 2026
 #### What I did
 1. Add main menu

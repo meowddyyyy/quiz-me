@@ -9,16 +9,16 @@ def displayMenu():
         print(menu)
 
 def exit():
-    print('exiting...')
-    global running
-    running = False
+        print('exiting...')
+        global running
+        running = False
 
 menu_actions = {  # dictionary mapping
-    "1": takeQuiz,      # value is the reference to the function
-    "2": createQuiz,
-    "3": editQuiz,
-    "4": deleteQuiz,
-    "5": exit
+        "1": takeQuiz,      # value is the reference to the function
+        "2": createQuiz,
+        "3": editQuiz,
+        "4": deleteQuiz,
+        "5": exit
 }
 
 while running:
