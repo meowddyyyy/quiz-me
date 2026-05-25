@@ -3,119 +3,16 @@
                 "title": "Python Basics",
                 "questions": [
                         {
-                                "question": "What is Python?",
-                                "answer": "A high-level programming language"
-                        },
-                        {
-                                "question": "Who created Python?",
-                                "answer": "Guido van Rossum"
-                        },
-                        {
-                                "question": "Is Python compiled or interpreted?",
-                                "answer": "Interpreted"
-                        },
-                        {
-                                "question": "What symbol is used for comments in Python?",
-                                "answer": "#"
-                        },
-                        {
-                                "question": "What is the file extension of Python files?",
-                                "answer": ".py"
-                        },
-                        {
-                                "question": "What data type is used to store text?",
-                                "answer": "String"
-                        },
-                        {
                                 "question": "What keyword is used to define a function?",
                                 "answer": "def"
                         },
                         {
-                                "question": "What does JSON stand for?",
-                                "answer": "JavaScript Object Notation"
-                        },
-                        {
-                                "question": "What is used to store multiple items in one variable?",
+                                "question": "What data type is used to store multiple values in order?",
                                 "answer": "List"
                         },
                         {
-                                "question": "What does the print() function do?",
-                                "answer": "Outputs data to the screen"
-                        }
-                ]
-        },
-        {
-                "title": "Math",
-                "questions": [
-                        {
-                                "question": "1 + 1",
-                                "answer": "2"
-                        }
-                ]
-        },
-        {
-                "title": "Math",
-                "questions": [
-                        {
-                                "question": "1 + 1",
-                                "answer": "2"
-                        }
-                ]
-        },
-        {
-                "title": "Python",
-                "questions": [
-                        {
-                                "question": "Output function",
-                                "answer": "print()"
-                        }
-                ]
-        },
-        {
-                "title": "Me",
-                "questions": [
-                        {
-                                "question": "When is my birthday?",
-                                "answer": "April 9, 2005"
-                        },
-                        {
-                                "question": "What is my middlename?",
-                                "answer": "Orteras"
-                        }
-                ]
-        },
-        {
-                "title": "Math",
-                "questions": [
-                        {
-                                "question": "1 + 1",
-                                "answer": "2"
-                        }
-                ]
-        },
-        {
-                "title": "Planets",
-                "questions": [
-                        {
-                                "question": "Largest",
-                                "answer": "Jupiter"
-                        },
-                        {
-                                "question": "Home planet",
-                                "answer": "Earth"
-                        }
-                ]
-        },
-        {
-                "title": "Comprog",
-                "questions": [
-                        {
-                                "question": "What is java.",
-                                "answer": "Programming Language"
-                        },
-                        {
-                                "question": "What year is java created?",
-                                "answer": "1994"
+                                "question": "What symbol is used for comments?",
+                                "answer": "#"
                         }
                 ]
         }

@@ -16,5 +16,10 @@
         "Comprog": [
                 "Programming Language",
                 "1994"
+        ],
+        "Python Basics": [
+                "def",
+                "List",
+                "#"
         ]
 }

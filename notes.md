@@ -10,3 +10,4 @@ Note:
         - minimun number of questions is 5 items
         - feature: enumaration, true or false, multiple choice
         - feature: Return back
+        - feature: make the system full with of the cli

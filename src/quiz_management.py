@@ -1,4 +1,5 @@
-from src.file_storage import saveAnswerPool, saveQuiz
+from src.file_storage import saveAnswerPool, saveQuiz, loadQuizzes, removeQuiz
+from src.quiz_taking import displayQuizzes
 
 def createQuiz():
         quiz_title = input("Enter quiz title: ")
@@ -28,7 +29,18 @@ def createQuiz():
         saveQuiz(quiz)
 
 def editQuiz():
-    print('edit quiz')
+        print('edit quiz')
 
 def deleteQuiz():
-    print('delete quiz')
+        data = loadQuizzes()
+        print("===== Delete a quiz =====")
+        displayQuizzes()
+
+        quizIndex = int(input("Enter quiz: "))
+        if quizIndex > len(data) - 1:
+                print("Cancelled. Returning to menu...")
+                return
+
+        quiz = data[quizIndex]
+        print(f"Deleting quiz... {quiz["title"]}")
+        removeQuiz(quiz)
